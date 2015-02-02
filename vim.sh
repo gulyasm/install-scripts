@@ -17,5 +17,13 @@ cd ~/.vim
 hg clone https://bitbucket.org/kien/ctrlp.vim bundle/ctrlp.vim
 
 # Install vim-go
- cd ~/.vim/bundle
- git clone https://github.com/fatih/vim-go.git
+cd ~/.vim/bundle
+git clone https://github.com/fatih/vim-go.git
+
+# Install molokai-transparent
+mkdir -p ~/.vim/colors/
+curl -LSso ~/.vim/colors/molokai-transparent.vim https://raw.githubusercontent.com/hugoroy/.vim/master/colors/molokai-transparent.vim
+
+# Install NERDTree
+cd ~/.vim/bundle
+git clone https://github.com/scrooloose/nerdtree.git
