@@ -27,3 +27,8 @@ curl -LSso ~/.vim/colors/molokai-transparent.vim https://raw.githubusercontent.c
 # Install NERDTree
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
+
+# Install AutoClose
+mkdir ~/.vim/plugin
+cd ~/.vim/plugin
+wget --recursive http://www.vim.org/scripts/download_script.php?src_id=10873 -O autoclose.vim
