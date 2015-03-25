@@ -32,3 +32,8 @@ git clone https://github.com/scrooloose/nerdtree.git
 mkdir ~/.vim/plugin
 cd ~/.vim/plugin
 wget --recursive http://www.vim.org/scripts/download_script.php?src_id=10873 -O autoclose.vim
+
+# Install emett
+cd ~/.vim/bundle
+git clone https://github.com/mattn/emmet-vim.git
+
